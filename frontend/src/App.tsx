@@ -8,7 +8,7 @@ function App() {
   const [health, setHealth] = useState("");
 
   useEffect(() => {
-    fetch('https://localhost:8000/health')
+    fetch('/api/health')
       .then(res => res.json())
       .then(data => {
         setHealth(data.status);

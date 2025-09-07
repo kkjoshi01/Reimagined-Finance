@@ -53,7 +53,13 @@ Reimagined-Finance/
 	```powershell
 	uvicorn main:app --reload
 	```
-	The backend will be available at `http://127.0.0.1:8000`.
+
+    Alternative:
+    ```powershell
+    python -m uvicorn main:app --reload --port 8000
+    ```
+
+    The backend will be available at `http://127.0.0.1:8000`.
 
 ---
 
