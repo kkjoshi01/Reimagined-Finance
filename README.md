@@ -1,2 +1,2 @@
 # Reimagined-Finance
-React-based Web-App for Managing Personal Finances
+React + TypeScript Web-App for Managing Personal Finances
